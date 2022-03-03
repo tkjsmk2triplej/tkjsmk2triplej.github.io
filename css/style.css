@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Home Page */
+.container-glass {
+  font-family: "Coda", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to top right, #1c83d8, #8cabec);
+}
+
+.glass {
+  font-family: "Merienda", cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.7)
+  );
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  z-index: 2;
+}
+
+.glass-contact {
+  height: 55vh;
+}
+
+.glass-sosmed {
+  height: 55vh;
+}
+
+.glass .d-grid .btn:hover {
+  background-color: #1c83d8;
+  color: #fff;
+}
+
+.glass .d-grid .btn:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.glass .d-grid .btn img {
+  width: 30px;
+}
+
+.footer {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* End Home Page */
+
+/* Balon-Balon */
+.glass1,
+.glass2,
+.glass3,
+.glass4 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+.glass1 {
+  width: 8rem;
+  height: 8rem;
+  top: 150px;
+  right: 20px;
+  background: linear-gradient(
+    to top left,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.7)
+  );
+}
+.glass2 {
+  width: 13rem;
+  height: 13rem;
+  bottom: -140px;
+  left: 1px;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.7)
+  );
+}
+.glass3 {
+  width: 10rem;
+  height: 10rem;
+  top: 600px;
+  right: 10px;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.6)
+  );
+}
+.glass4 {
+  width: 5rem;
+  height: 5rem;
+  top: 150px;
+  left: 10px;
+  background: linear-gradient(
+    to top left,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.7)
+  );
+}
+/* End Balon-Balon */
+
+/* Responsive Breakpoint */
+
+/* Ukuran tablet */
+/* @media screen and (max-width: 800px) { */
+/* Home Page */
+/* .glass-home {
+       flex-direction: column;
+   }
+} */
+
+/* Ukuran tablet dan computer/ Ukuran diatas Mobile */
+/* @media screen and (min-width: 600px) { */
+/* Home Page */
+/* .glass-home {
+        width: 80%;
+        margin: 0 0 0 50px;
+    } */
+/* End Home Page */
+/* } */
